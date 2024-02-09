@@ -13,6 +13,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
+    "react-read-more-read-less": "^1.0.7",
+    "styled-bootstrap-grid": "^3.1.2",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {

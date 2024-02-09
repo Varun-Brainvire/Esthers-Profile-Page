@@ -62,3 +62,14 @@ export const StyledLink = styled(Link)`
   cursor: pointer;
   text-decoration: none;
 `;
+
+export const Span = styled.span`
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+`;
+
+export const UL = styled.ul`
+list-style-type: none;
+padding: 0;
+`
