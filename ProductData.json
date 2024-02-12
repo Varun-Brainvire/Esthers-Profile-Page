@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "imageSrc": "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg",
+      "productName": "M Helium Down Jkt Sport Jackets Padded Jackets Black Outdoor Research",
+      "companyName": "Outdoor Research",
+      "price": 2339.0,
+      "type": "Boozt"
+    },
+    {
+      "id": 2,
+      "imageSrc": "https://pimg.azureedge.net/201206/b871fccf239847e22bb94f319f850524/detailsjpg/feelin-good-for-her-edp-50ml_1.jpg",
+      "productName": "Feelin' Good For Her, EdP 50ml",
+      "companyName": "Hollister",
+      "price": 320,
+      "type": "Parfym.se"
+    },
+    {
+      "id": 3,
+      "imageSrc": "https://www.pricerunner.se/product/640x640/3013305463/Krukvaextnaering-Houseplant-Myst-300ml.jpg",
+      "productName": "Krukväxtnäring, Houseplant Myst 300ml",
+      "companyName": "Krukväxtnäring, Houseplant Myst 300ml",
+      "price": 76,
+      "type": "Pricerunner"
+    },
+    {
+      "id": 4,
+      "imageSrc": "https://www.pricerunner.se/product/640x640/3015702441/Undefined-Metal-Hard-metal-analplug.jpg",
+      "productName": "Undefined Metal Hard metal analplug",
+      "companyName": "Undefined",
+      "price": 774.84,
+      "type": "Pricerunner"
+    },
+    {
+      "id": 2,
+      "imageSrc": "https://pimg.azureedge.net/201206/b871fccf239847e22bb94f319f850524/detailsjpg/feelin-good-for-her-edp-50ml_1.jpg",
+      "productName": "Feelin' Good For Her, EdP 50ml",
+      "companyName": "Hollister",
+      "price": 320,
+      "type": "Parfym.se"
+    },
+    {
+      "id": 2,
+      "imageSrc": "https://pimg.azureedge.net/201206/b871fccf239847e22bb94f319f850524/detailsjpg/feelin-good-for-her-edp-50ml_1.jpg",
+      "productName": "Feelin' Good For Her, EdP 50ml",
+      "companyName": "Hollister",
+      "price": 320,
+      "type": "Parfym.se"
+    },
+    {
+      "id": 2,
+      "imageSrc": "https://pimg.azureedge.net/201206/b871fccf239847e22bb94f319f850524/detailsjpg/feelin-good-for-her-edp-50ml_1.jpg",
+      "productName": "Feelin' Good For Her, EdP 50ml",
+      "companyName": "Hollister",
+      "price": 320,
+      "type": "Parfym.se"
+    },
+    {
+      "id": 2,
+      "imageSrc": "https://pimg.azureedge.net/201206/b871fccf239847e22bb94f319f850524/detailsjpg/feelin-good-for-her-edp-50ml_1.jpg",
+      "productName": "Feelin' Good For Her, EdP 50ml",
+      "companyName": "Hollister",
+      "price": 320,
+      "type": "Parfym.se"
+    }
+  ]
+}

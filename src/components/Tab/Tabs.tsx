@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 
 const Tabs = () => {
   const [toggleTabs, setToggleTabs] = useState("Feed");
-  console.log(toggleTabs);
   const onTabsClick = (tabContent: string) => {
     setToggleTabs(tabContent);
   };
@@ -19,33 +18,43 @@ const Tabs = () => {
           <TabsUL>
             <TabsLI
               isActive={toggleTabs == "Feed"}
-              onClick={() =>{
-                onTabsClick("Feed")
-                router.push("/oliver/shop")
+              onClick={() => {
+                onTabsClick("Feed");
+                router.push("/oliver");
               }}
             >
               Feed
             </TabsLI>
             <TabsLI
               isActive={toggleTabs == "Shop"}
-              onClick={() => onTabsClick("Shop")}
+              onClick={() => {
+                onTabsClick("Shop");
+                router.push("/oliver/shop");
+              }}
             >
               Shop
             </TabsLI>
             <TabsLI
               isActive={toggleTabs == "Styleboards"}
-              onClick={() => onTabsClick("Styleboards")}
+              onClick={() => {
+                onTabsClick("Styleboards");
+                router.push("/oliver/styleboards");
+              }}
             >
               Styleboards
             </TabsLI>
             <TabsLI
               isActive={toggleTabs == "Blog"}
-              onClick={() => onTabsClick("Blog")}
+              onClick={() => {
+                onTabsClick("Blog");
+                router.push("/oliver/blog");
+              }}
             >
               Blog
             </TabsLI>
           </TabsUL>
         </TabsDiv>
+        
       </ProfileDetailContainer>
     </div>
   );
