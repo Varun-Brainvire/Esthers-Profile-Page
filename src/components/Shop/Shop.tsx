@@ -82,7 +82,7 @@ const Shop = () => {
       <CoverPhotoDiv />
       <ProfileContainer />
       <Tabs />
-      <ProfileDetailContainer>
+      <ProfileDetailContainer className="forShop">
         <StyledSelect
           options={data}
           getOptionLabel={(e: any) => (

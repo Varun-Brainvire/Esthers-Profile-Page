@@ -7,7 +7,9 @@ import PostCard from '../PostCard/PostCard'
 const ProfilePage = () => {
   return (
     <div>
+      <div>
         <CoverPhotoDiv />
+      </div>
         <ProfileContainer />
         <Tabs />
         <PostCard />

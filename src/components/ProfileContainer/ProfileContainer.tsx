@@ -13,7 +13,7 @@ import {
 } from "./ProfileContainer.styles";
 import ProfileImage from "../../../public/rd9yfaxzx3x3rrym3ooy.jpg";
 import Description from "../../../Description.json";
-// import {ReactReadMoreReadLess} from "react-read-more-read-less";
+import ReactReadMoreReadLess from "react-read-more-read-less";
 
 const ProfileContainer = () => {
   const [showFullParagraph, setShowFullParagraph] = useState(false);
@@ -45,11 +45,15 @@ const ProfileContainer = () => {
               </StyledLinkDiv>
             </div>
 
-            {/* <ReactReadMoreReadLess
-              charLimit={200}
-              readMoreText={"Read more"}
-              readLessText={"Read less"}
-            >{Description.paragraph[0]}</ReactReadMoreReadLess> */}
+            <div className="description_for_mobile">
+              <ReactReadMoreReadLess
+                charLimit={200}
+                readMoreText={"Read more"}
+                readLessText={"Read less"}
+              >
+                {Description.paragraph[0]}
+              </ReactReadMoreReadLess>
+            </div>
             {/* <div style={{fontSize:"16px"}}>
               {linesToDisplay.map((lines, index) => {
                 return <p>{lines}</p>;

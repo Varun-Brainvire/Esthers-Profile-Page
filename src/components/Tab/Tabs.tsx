@@ -13,8 +13,8 @@ const Tabs = () => {
 
   return (
     <div>
-      <ProfileDetailContainer style={{ borderColor: "1px solid blue" }}>
-        <TabsDiv>
+      <ProfileDetailContainer className="forMobile" style={{ borderColor: "1px solid blue" }}>
+        <TabsDiv className="tabsForMobile">
           <TabsUL>
             <TabsLI
               isActive={toggleTabs == "Feed"}

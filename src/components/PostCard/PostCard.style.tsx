@@ -3,11 +3,12 @@ import styled from "styled-components";
 
 export const MainPostCardDiv = styled.div`
   height: 252px;
-  max-width: 252px;
+  max-width: 100%;
   object-fit: cover;
   border-radius: 15px;
   position: relative;
   cursor: pointer;
+  width: 100%;
 `;
 
 export const ContentDiv = styled.div`
@@ -59,6 +60,6 @@ export const MainOverlayDiv = styled.div`
 
 export const StyledImage = styled(Image)`
     height: 252;
-    width: 252;
+    width: 100%;
     border-radius: 6px;
 `

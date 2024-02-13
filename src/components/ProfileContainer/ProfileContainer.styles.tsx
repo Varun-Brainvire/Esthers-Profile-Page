@@ -7,8 +7,30 @@ export const ProfileDetailContainer = styled.div`
   padding-right: 48px;
   width: calc(0% + 1320px);
   margin: 0px 108px;
-  /* height: 100%;
-    width: 100%; */
+
+  &.forFeedTabs {
+    @media (max-width: 576px) {
+      width: calc(0% + 1198px);
+    }
+  }
+
+  .forMobile {
+    @media (max-width: 576px) {
+      width: calc(0% + 1198px);
+    }
+    padding: 0 !important;
+  }
+
+  @media (max-width: 576px) {
+    margin: 0px;
+    padding-left: 15px;
+  }
+
+  .forShop {
+    @media (max-width: 576px) {
+      width: calc(0% + 1198px);
+    }
+  }
 `;
 
 export const ProfileWrapper = styled.div`
@@ -17,6 +39,12 @@ export const ProfileWrapper = styled.div`
   padding: 40px 0pc;
   display: flex;
   overflow: hidden;
+  /* @media (max-width: 576px) {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+  } */
 `;
 
 export const ProfilePhotoDiv = styled.div`
@@ -41,6 +69,12 @@ export const ProfileDescriptionDiv = styled.div`
   padding-right: 15px;
   margin-left: 30px;
   width: 100%;
+  .description_for_mobile {
+    display: none;
+    @media (max-width: 576px) {
+      display: block;
+    }
+  }
 `;
 
 export const PTag = styled.p`
@@ -70,6 +104,6 @@ export const Span = styled.span`
 `;
 
 export const UL = styled.ul`
-list-style-type: none;
-padding: 0;
-`
+  list-style-type: none;
+  padding: 0;
+`;

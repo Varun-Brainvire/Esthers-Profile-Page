@@ -8,12 +8,11 @@ import { Col, Container, Row } from "styled-bootstrap-grid";
 
 const PostCard = () => {
   return (
-    <ProfileDetailContainer style={{marginTop:"24px"}}>
-      <Container>
+    <ProfileDetailContainer className="forFeedTabs" style={{marginTop:"24px"}}>
           <Row>
         {PostCardImage.data.map((item) => {
           return (
-              <Col lg={3} md={3} xl={3} xs={3} style={{marginBottom:"16px"}}>
+              <Col lg={3} md={3} xl={3} xs={2} sm={2} style={{marginBottom:"16px"}}>
                 <MainPostCardDiv>
                   <StyledImage
                     src={Home}
@@ -42,7 +41,6 @@ const PostCard = () => {
           );
         })}
         </Row>
-      </Container>
     </ProfileDetailContainer>
   );
 };

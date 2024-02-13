@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ProductCardMainDiv = styled.div`
   border-radius: 6px;
   border: 1px solid #dddddd;
-  width: 260px;
+  width: 100%;
   height: 474px;
   position: relative;
   overflow: hidden;
@@ -11,7 +11,7 @@ export const ProductCardMainDiv = styled.div`
 
 export const ProductImageWrapper = styled.div`
   height: 285px;
-  width: 260px;
+  width: 100%;
   padding: 10px;
   position: relative;
 `;

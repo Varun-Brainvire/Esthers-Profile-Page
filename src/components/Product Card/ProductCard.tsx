@@ -19,7 +19,7 @@ import ProductData from "../../../ProductData.json";
 const ProductCard = () => {
   return (
     <ProfileDetailContainer style={{ marginTop: "15px" }}>
-      <Container>
+      {/* <Container> */}
         <Row>
           {ProductData.data.map((item) => {
             return (
@@ -90,7 +90,7 @@ const ProductCard = () => {
             );
           })}
         </Row>
-      </Container>
+      {/* </Container> */}
     </ProfileDetailContainer>
   );
 };

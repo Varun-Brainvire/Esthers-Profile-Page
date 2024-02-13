@@ -3,6 +3,7 @@ import ProfileContainer from '../ProfileContainer/ProfileContainer'
 import Tabs from '../Tab/Tabs'
 import PostCard from '../PostCard/PostCard'
 import { CoverPhotoDiv } from '../Profile Page/ProfilePage.styles'
+import StyleboardImageGrid from '../Styleboard Image Grid/StyleboardImageGrid'
 
 type Props = {}
 
@@ -12,7 +13,7 @@ const StyleBoards = (props: Props) => {
         <CoverPhotoDiv />
         <ProfileContainer />
         <Tabs />
-        <PostCard />
+        <StyleboardImageGrid />
     </div>
   )
 }
