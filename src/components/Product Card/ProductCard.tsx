@@ -18,8 +18,7 @@ import ProductData from "../../../ProductData.json";
 
 const ProductCard = () => {
   return (
-    <ProfileDetailContainer style={{ marginTop: "15px" }}>
-      {/* <Container> */}
+    <ProfileDetailContainer className="forShop">
         <Row>
           {ProductData.data.map((item) => {
             return (
@@ -27,7 +26,7 @@ const ProductCard = () => {
                 lg={3}
                 md={3}
                 xl={3}
-                xs={3}
+                xs={6}
                 style={{ marginBottom: "16px" }}
               >
                 <ProductCardMainDiv>
@@ -90,7 +89,6 @@ const ProductCard = () => {
             );
           })}
         </Row>
-      {/* </Container> */}
     </ProfileDetailContainer>
   );
 };

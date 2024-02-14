@@ -2,7 +2,7 @@ import React from "react";
 import { ProfileDetailContainer } from "../ProfileContainer/ProfileContainer.styles";
 import Image from "next/image";
 import Home from "../../../public/home.png";
-import { BagIcon, ContentDiv, MainPostCardDiv, StyledImage } from "./PostCard.style";
+import { BagIcon, ContentDiv, MainPostCardDiv, StyledCol, StyledImage } from "./PostCard.style";
 import PostCardImage from "../../../PostCardData.json";
 import { Col, Container, Row } from "styled-bootstrap-grid";
 
@@ -12,7 +12,7 @@ const PostCard = () => {
           <Row>
         {PostCardImage.data.map((item) => {
           return (
-              <Col lg={3} md={3} xl={3} xs={2} sm={2} style={{marginBottom:"16px"}}>
+              <StyledCol lg={3} md={3} xl={3} xs={6} sm={12}>
                 <MainPostCardDiv>
                   <StyledImage
                     src={Home}
@@ -37,7 +37,7 @@ const PostCard = () => {
                     </BagIcon>
                   </ContentDiv>
                 </MainPostCardDiv>
-              </Col>
+              </StyledCol>
           );
         })}
         </Row>

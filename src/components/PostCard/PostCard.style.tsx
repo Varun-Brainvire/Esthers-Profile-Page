@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styled from "styled-components";
+import { Col, Container, Row } from "styled-bootstrap-grid";
 
 export const MainPostCardDiv = styled.div`
   height: 252px;
@@ -9,6 +10,11 @@ export const MainPostCardDiv = styled.div`
   position: relative;
   cursor: pointer;
   width: 100%;
+
+  @media (max-width: 576px) {
+      height: 202px;
+    }
+
 `;
 
 export const ContentDiv = styled.div`
@@ -59,7 +65,16 @@ export const MainOverlayDiv = styled.div`
 `;
 
 export const StyledImage = styled(Image)`
-    height: 252;
+    height: 252px;
     width: 100%;
     border-radius: 6px;
+
+    @media (max-width: 576px) {
+      height: 200px;
+    }
+
+`
+export const StyledCol = styled(Col)`
+  margin-bottom: 15px;
+  padding-left: 5px;
 `
