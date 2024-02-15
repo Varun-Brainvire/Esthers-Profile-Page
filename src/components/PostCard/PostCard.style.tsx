@@ -12,9 +12,8 @@ export const MainPostCardDiv = styled.div`
   width: 100%;
 
   @media (max-width: 576px) {
-      height: 202px;
-    }
-
+    height: 202px;
+  }
 `;
 
 export const ContentDiv = styled.div`
@@ -65,16 +64,67 @@ export const MainOverlayDiv = styled.div`
 `;
 
 export const StyledImage = styled(Image)`
-    height: 252px;
-    width: 100%;
-    border-radius: 6px;
+  height: 252px;
+  width: 100%;
+  border-radius: 6px;
 
-    @media (max-width: 576px) {
-      height: 200px;
-    }
-
-`
+  @media (max-width: 576px) {
+    height: 200px;
+  }
+`;
 export const StyledCol = styled(Col)`
   margin-bottom: 15px;
-  padding-left: 5px;
-`
+  padding-left: ${({ shopCol }) => (shopCol ? "" : "5px")};
+  @media (max-width: 576px) {
+    padding-left: 15px;
+  }
+`;
+
+export const MobileButtons = styled.div`
+  display: none;
+  &.mobile-buttons {
+    @media (max-width: 576px) {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  }
+`;
+
+export const GridButton = styled.button`
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(244, 240, 236);
+  color: rgb(58, 58, 58);
+  height: 38px;
+  width: 38px;
+  min-width: 38px;
+  min-height: 38px;
+  border-radius: 99px;
+  border: none;
+  transition: background 0.2s ease 0s;
+  padding: 7px;
+  opacity: 1;
+`;
+
+export const SquareButton = styled.button`
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: transparent;
+  color: rgb(58, 58, 58);
+  height: 38px;
+  width: 38px;
+  min-width: 38px;
+  min-height: 38px;
+  border-radius: 99px;
+  border: none;
+  transition: background 0.2s ease 0s;
+  padding: 7px;
+  opacity: 1;
+`;

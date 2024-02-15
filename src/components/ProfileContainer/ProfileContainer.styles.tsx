@@ -4,11 +4,11 @@ import styled from "styled-components";
 
 export const ProfileDetailContainer = styled.div`
   padding-left: 8px;
-  /* padding-right: 48px; */
   width: calc(0% + 1320px);
   margin: 0px 108px;
 
   &.forFeedTabs {
+    margin-top: 24px;
     @media (max-width: 576px) {
       padding-left: 16px;
       width: calc(0% + 427px);
@@ -20,7 +20,7 @@ export const ProfileDetailContainer = styled.div`
   &.forShop {
     @media (max-width: 576px) {
       padding-left: 9px;
-      width: calc(0% + 427px);
+      width: calc(0% + 380px);
       max-width: calc(0% + 550px);
       margin-top: 15px;
     }
@@ -31,12 +31,6 @@ export const ProfileDetailContainer = styled.div`
       width: calc(0% + 1198px);
     }
     padding: 0 !important;
-  }
-
-  .forShop {
-    @media (max-width: 576px) {
-      width: calc(0% + 1198px);
-    }
   }
   @media (max-width: 576px) {
     width: (0% + 576px) !important;
@@ -100,6 +94,9 @@ export const PTag = styled.p`
   line-height: 29px;
   color: #1a1a1a;
   margin-bottom: 10px;
+  @media (max-width: 576px) {
+    margin-bottom: 2px;
+  }
 `;
 
 export const StyledLinkDiv = styled.div`
@@ -128,7 +125,6 @@ export const UL = styled.ul`
 `;
 
 export const NameAndLinkDiv = styled.div`
-  /* margin: 10px 0px 12px; */
   &.description_for_mobile {
     display: none !important;
     @media (max-width: 576px) {
@@ -136,4 +132,8 @@ export const NameAndLinkDiv = styled.div`
       display: block !important;
     }
   }
+`;
+
+export const NameDiv = styled.div`
+  padding-left: 20px;
 `;

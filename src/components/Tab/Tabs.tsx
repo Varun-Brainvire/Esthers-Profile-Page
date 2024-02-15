@@ -13,7 +13,7 @@ const Tabs = () => {
 
   return (
     <div>
-      <ProfileDetailContainer className="forMobile" style={{ borderColor: "1px solid blue" }}>
+      <ProfileDetailContainer className="forMobile">
         <TabsDiv className="tabsForMobile">
           <TabsUL>
             <TabsLI
@@ -54,7 +54,6 @@ const Tabs = () => {
             </TabsLI>
           </TabsUL>
         </TabsDiv>
-        
       </ProfileDetailContainer>
     </div>
   );

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {
   NameAndLinkDiv,
+  NameDiv,
   PTag,
   ProfileDescriptionDiv,
   ProfileDetailContainer,
@@ -34,18 +35,14 @@ const ProfileContainer = () => {
           <ProfilePhotoDiv>
             <ProfilePhoto src={ProfileImage} alt="profile photo" />
           </ProfilePhotoDiv>
-
-          {/* <ProfileDescriptionDiv> */}
-            <div className="" style={{paddingLeft:"20px"}}>
+            <NameDiv className="">
             <PTag>oliver</PTag>
-              {/* <StyledLinkDiv> */}
                 <StyledLink href="https://www.instagram.com/rajandas">
                   https://www.instagram.com/rajandas
                 </StyledLink>
-              {/* </StyledLinkDiv> */}
-            </div>
+            </NameDiv>
 
-            <NameAndLinkDiv className="description_for_mobile" style={{margin:"10px 0px 12px"}}>
+            <NameAndLinkDiv className="description_for_mobile">
               <ReactReadMoreReadLess
                 charLimit={200}
                 readMoreText={"Read more"}
@@ -73,7 +70,6 @@ const ProfileContainer = () => {
                 </div>
               )}
             </div> */}
-          {/* </ProfileDescriptionDiv> */}
         </ProfileWrapper>
       </ProfileDetailContainer>
     </div>

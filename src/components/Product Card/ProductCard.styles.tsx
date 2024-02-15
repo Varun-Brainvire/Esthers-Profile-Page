@@ -7,6 +7,9 @@ export const ProductCardMainDiv = styled.div`
   height: 474px;
   position: relative;
   overflow: hidden;
+  @media (max-width: 576px) {
+    height: 325px;
+  }
 `;
 
 export const ProductImageWrapper = styled.div`
@@ -14,6 +17,9 @@ export const ProductImageWrapper = styled.div`
   width: 100%;
   padding: 10px;
   position: relative;
+  @media (max-width: 576px) {
+    height: 180px;
+  }
 `;
 
 export const ProductImage = styled.img`
@@ -43,6 +49,9 @@ export const ProductName = styled.p`
 
 export const CompanyNameDiv = styled.div`
   margin-top: 10px;
+  @media (max-width: 576px) {
+    margin-top: 4px;
+  }
 `;
 
 export const CompanyName = styled.p`
@@ -83,13 +92,16 @@ export const ProductType = styled.p`
   margin-top: 10px;
   width: fit-content;
   text-transform: capitalize;
+  @media (max-width: 576px) {
+    margin-top: 7px;
+  }
 `;
 
 export const ButtonsDiv = styled.div`
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+`;
 
 export const Buttons = styled.button`
   display: flex;
@@ -110,4 +122,12 @@ export const Buttons = styled.button`
   opacity: 1;
   margin-left: 10px;
   cursor: pointer;
+`;
+
+export const PriceDiv = styled.div`
+  margin-top: 10px;
+
+  @media (max-width: 576px) {
+    margin-top: 4px;
+  }
 `;
