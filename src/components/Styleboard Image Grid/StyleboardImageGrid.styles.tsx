@@ -2,16 +2,54 @@ import styled from "styled-components";
 
 export const GridDiv = styled.div`
   display: grid;
-  grid-template-columns: 3fr;
-  grid-template-rows: ${(count:any) => count == 3 ? 2 : 2};
-  /* grid-template-areas:
-    ${(count:any) => count === 1 ? "img1" : count == 2 ? "img1 img2" : count == 3 ? "img1 img2 img3" : count == 4 ? "img1 img3 img2 img4":""}; */
-    grid-template-areas:"img1";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* grid-template-areas: "img1"; */
   gap: 7px;
+  background-color: #f4f0ec;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+`;
+
+export const GridItem = styled.div`
+  border-radius: 5px;
+  padding: 1em;
+  color: #d9480f;
+  background-image: url("https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1682323300/user_photos_dev/son4gbbjuvhtlfoicd2r.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  &.item-1,
+  &.item-6,
+  &.item-8 {
+    grid-column: span 2;
+  }
+  &.item-7 {
+    grid-row: span 2;
+  }
+  &.item-3 {
+    grid-column: span 1;
+  }
+  &.item-9 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  &.item-10 {
+    grid-row: span 2;
+  }
+  &.item-11,
+  &.item-13 {
+    grid-column: span 2;
+  }
 `;
 
 export const UpperGridDiv = styled.div`
-  display: flex;
+  display: grid;
   margin-top: 6px;
 `;
 export const MainGridDiv = styled.div`
