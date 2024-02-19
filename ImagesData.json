@@ -8,11 +8,13 @@
       {
         "id": 2,
         "images": ["https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1652174718/user_photos_dev/aweuskj1xb5mwu3w2tc1.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg"],
+        "title":"Demo Name",
+        "no_of_products":2,
         "image_count": 2
       },
       {
         "id": 3,
-        "images": ["https://static.goshopping.dk/products/2000/bosch-mum50123-koekkenmaskine-mum50123-10013-1.jpg", "https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1652174718/user_photos_dev/aweuskj1xb5mwu3w2tc1.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg"],
+        "images": ["https://static.goshopping.dk/products/2000/bosch-mum50123-koekkenmaskine-mum50123-10013-1.jpg","https://static.goshopping.dk/products/2000/bosch-mum50123-koekkenmaskine-mum50123-10013-1.jpg", "https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1652174718/user_photos_dev/aweuskj1xb5mwu3w2tc1.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg","https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg"],
         "image_count": 3
       },
       {
@@ -74,6 +76,21 @@
         "id": 15,
         "images": ["https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1656312330/user_photos_dev/smufhxzqedcyzutfwum7.jpg", "https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1682323300/user_photos_dev/son4gbbjuvhtlfoicd2r.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg"],
         "image_count": 4
+      },
+      {
+        "id": 16,
+        "images": ["https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1656312330/user_photos_dev/smufhxzqedcyzutfwum7.jpg", "https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1682323300/user_photos_dev/son4gbbjuvhtlfoicd2r.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg","https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg"],
+        "image_count": 5
+      },
+      {
+        "id": 17,
+        "images": ["https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1656312330/user_photos_dev/smufhxzqedcyzutfwum7.jpg", "https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1682323300/user_photos_dev/son4gbbjuvhtlfoicd2r.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg","https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg","https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg"],
+        "image_count": 6
+      },
+      {
+        "id": 18,
+        "images": ["https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1656312330/user_photos_dev/smufhxzqedcyzutfwum7.jpg", "https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1682323300/user_photos_dev/son4gbbjuvhtlfoicd2r.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg", "https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg","https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg","https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg","https://ean-images.booztcdn.com/outdoor-research/1300x1700/orh277573_cblack.jpg"],
+        "image_count": 7
       }
     ]
   }

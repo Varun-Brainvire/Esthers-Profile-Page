@@ -68,16 +68,22 @@ export const StyledImage = styled(Image)`
   width: 100%;
   border-radius: 6px;
 
+  ::before{
+    filter: brightness(0.7);
+  }
+
+
   @media (max-width: 576px) {
     height: 200px;
   }
 `;
 export const StyledCol = styled(Col)`
-  margin-bottom: 15px;
+  margin-bottom: ${(forShop => forShop ?"24px":"19px")};
   padding-left: ${({ shopCol }) => (shopCol ? "" : "5px")};
   @media (max-width: 576px) {
     padding-left: 15px;
   }
+
 `;
 
 export const MobileButtons = styled.div`
@@ -128,3 +134,9 @@ export const SquareButton = styled.button`
   padding: 7px;
   opacity: 1;
 `;
+
+export const OverlayImage = styled.div`
+  height: 252px;
+  width: 252px;
+  filter: brightness(0.7);
+`

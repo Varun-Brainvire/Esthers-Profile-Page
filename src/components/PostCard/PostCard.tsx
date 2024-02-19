@@ -8,6 +8,7 @@ import {
   GridButton,
   MainPostCardDiv,
   MobileButtons,
+  OverlayImage,
   SquareButton,
   StyledCol,
   StyledImage,
@@ -21,6 +22,8 @@ const PostCard = () => {
   const handleGridButton = () => {
     setGridButton((prev) => !prev);
   };
+
+  const hoverImageFunction = () => {};
 
   return (
     <ProfileDetailContainer className="forFeedTabs">
@@ -107,11 +110,12 @@ const PostCard = () => {
         </div>
       </MobileButtons>
       <Row>
-        {PostCardImage.data.map((item) => {
+        {PostCardImage.data.map((item, i) => {
           return (
             <StyledCol lg={3} md={3} xl={3} xs={gridButton ? 12 : 6} sm={12}>
               <MainPostCardDiv>
                 <StyledImage
+                  onMouseEnter={() => hoverImageFunction()}
                   src={Home}
                   height={252}
                   width={252}

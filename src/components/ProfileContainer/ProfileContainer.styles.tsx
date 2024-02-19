@@ -25,6 +25,15 @@ export const ProfileDetailContainer = styled.div`
       margin-top: 15px;
     }
   }
+  &.forStyleBoards{
+    @media (max-width: 576px) {
+      padding-left: 4px;
+      padding-right: 12px;
+      width: calc(0% + 380px);
+      max-width: calc(0% + 550px);
+      margin-top: 15px;
+    }
+  }
 
   &.forMobile {
     @media (max-width: 576px) {

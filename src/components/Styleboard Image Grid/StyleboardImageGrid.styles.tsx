@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
+interface PropsTypes {
+  lastImage?: boolean;
+  brightness?: number;
+}
+
 export const GridDiv = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  /* grid-template-areas: "img1"; */
   gap: 7px;
   background-color: #f4f0ec;
   width: 100%;
@@ -14,16 +18,18 @@ export const GridDiv = styled.div`
   border-radius: 5px;
 `;
 
-export const GridItem = styled.div`
+export const GridItem = styled.div<PropsTypes>`
   border-radius: 5px;
   padding: 1em;
-  color: #d9480f;
   background-image: url("https://res.cloudinary.com/esthers/image/upload/w_115,dpr_2.0,c_fill,e_sharpen:100/v1682323300/user_photos_dev/son4gbbjuvhtlfoicd2r.jpg");
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  filter: brightness(brightness);
+  /* filter: brightness(${(lastImage) => (lastImage ? "0.7" : "")}); */
+  /* filter: ${(lastImage) => (lastImage ? "" : "brightness(0.7)")}; */
   &.item-1,
   &.item-6,
   &.item-8 {
@@ -83,4 +89,36 @@ export const GridImage = styled.img`
   &.nav6 {
     grid-area: img6;
   }
+`;
+
+export const NumberDiv = styled.div`
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 81%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+`;
+
+export const StyleBoardPTag = styled.p`
+  font-size: ${(noOfProducts) => (noOfProducts ? "22px" : "14px")};
+  font-weight: 600;
+  padding-left: 12px;
+  margin-top: 10px;
+  color: #3a3a3a;
+  overflow: hidden;
+`;
+export const NumberOfProducts = styled.p`
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 12px;
+  margin-top: 6px;
+  color: #3a3a3a;
+  overflow: hidden;
 `;

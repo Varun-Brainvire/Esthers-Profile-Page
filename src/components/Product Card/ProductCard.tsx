@@ -24,7 +24,7 @@ const ProductCard = () => {
       <Row>
         {ProductData.data.map((item) => {
           return (
-            <StyledCol lg={3} md={3} xl={3} xs={6} shopCol={true}>
+            <StyledCol lg={3} md={3} xl={3} xs={6} forShop={true} shopCol={true}>
               <ProductCardMainDiv>
                 <ProductImageWrapper>
                   <ProductImage src={item.imageSrc} alt="product image" />

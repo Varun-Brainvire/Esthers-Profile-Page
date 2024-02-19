@@ -4,7 +4,7 @@ export const ProductCardMainDiv = styled.div`
   border-radius: 6px;
   border: 1px solid #dddddd;
   width: 100%;
-  height: 474px;
+  height: 447px;
   position: relative;
   overflow: hidden;
   @media (max-width: 576px) {
